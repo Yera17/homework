@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Task {
-    private String name;
+    protected String name;
     protected String description;
     protected int id;
     protected CurrentStatus status;
@@ -44,5 +44,12 @@ public class Task {
 
     public void setStatus(CurrentStatus status) {
         this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
