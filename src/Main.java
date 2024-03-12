@@ -9,26 +9,11 @@ public class Main {
         manager.createSubtask(subtask);
         manager.createEpic(epic);
 
-//        manager.deleteAll();
-//        manager.deleteById(3);
+        manager.deleteAll();
+        manager.deleteById(3);
 
-//        System.out.println(manager.getAll())
-        System.out.println(manager.getById(1));
-        System.out.println(manager.getById(1));
-        System.out.println(manager.getById(1));
-        System.out.println(manager.getById(3));
-        System.out.println(manager.getById(1));
-        System.out.println(manager.getById(3));
-        System.out.println(manager.getById(1));
-//        System.out.println(manager.getAll());
-        System.out.println(manager.getById(2));
-        System.out.println(manager.getById(3));
-        System.out.println(manager.getById(1));
-        System.out.println(manager.getById(3));
-        System.out.println(manager.getById(1));
-        System.out.println(manager.getById(2));
-        System.out.println(manager.getHistory());
-        System.out.println(manager.getHistory().size());
+        System.out.println(manager.getAll());
+
 
     }
 }

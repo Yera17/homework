@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Task {
     protected String name;
@@ -7,8 +6,6 @@ public class Task {
     protected CurrentStatus status;
     protected static int uniqueId = 1;
     protected TaskType taskType;
-
-    Scanner scanner = new Scanner(System.in);
 
     public Task(String name, String description) {
         this.name = name;

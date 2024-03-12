@@ -1,7 +1,8 @@
 import java.util.List;
+import java.util.Map;
 
 public interface Manager {
-    List<Task> getAll();
+    Map<Integer, Task> getAll();
 
     void deleteAll();
     void deleteById(int id) throws NotFoundException;
@@ -12,7 +13,7 @@ public interface Manager {
     void createSubtask(Subtask subtask);
     void createEpic(Epic epic);
 
-    List<Task> getHistory();
+    Map<Integer, Task> getHistory();
 
 
 }
